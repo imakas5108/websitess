@@ -1,9 +1,39 @@
+
 img {
-    width: 1000px;
+    width: 20rem;
+    border-radius: 15px;
+    align-items: center;
+}
+h1 {
+    font-size: 2rem;
+    color: lightblue;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
 }
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: gray;
+    background: rgb(49, 100, 140);
     color: navajowhite;
+}
+#visitbtn {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+}
+
+#miku {
+    width: 20%;
+    border: 10% solid lightblue;
+    border-radius: 15px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+.miku.text {
+    font-size: 1.2rem;
+    color: lightyellow;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
