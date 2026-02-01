@@ -1,20 +1,34 @@
 
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
 img {
-    width: 20rem;
     border-radius: 15px;
+    width: 20rem;
     align-items: center;
 }
+
+.snpro {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 h1 {
     font-size: 2rem;
     color: lightblue;
     font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    font-family: 'SN Pro', sans-serif;
 }
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(49, 100, 140);
     color: navajowhite;
+    margin: 20px;
+    padding: 20px;
 }
 #visitbtn {
     padding: 10px;
@@ -70,9 +84,23 @@ header button {
     border: none;
     cursor: pointer;
 }
+header button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
 footer {
     text-align: right;
     margin-top: 20px;
     font-size: 0.9rem;
     color: lightgray;
+}
+#footer-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.secondimg {
+    width: 50rem;
+    border-radius: 15px;
+    align-items: center;
 }

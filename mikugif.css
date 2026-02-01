@@ -1,50 +1,9 @@
-header {
-    margin-bottom: 20px;
-    gap: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-header button:hover{
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-.snpro {
-  font-family: "SN Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-img {
-    width: 20rem;
-    border-radius: 15px;
-    align-items: center;
-}
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-}
-h1 {
-    font-size: 2rem;
-    color: lightblue;
-    font-weight: 900;
-    font-family: "SN Pro", sans-serif;
-    text-align: center;
-}
 body {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(49, 100, 140);
-    color: navajowhite;
     margin: 20px;
     padding: 20px;
-}
-#visitbtn {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    background-color: lightgreen;
-    border: none;
-    cursor: pointer;
 }
 .indie-flower-regular {
   font-family: "Indie Flower", cursive;
@@ -60,6 +19,10 @@ body {
   font-family: "Pangolin", cursive;
   font-weight: 400;
   font-style: italic;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
 .pangolin-bold {
   font-family: "Pangolin", cursive;
@@ -79,18 +42,34 @@ header button {
     border: none;
     cursor: pointer;
 }
-ol {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin: 0 auto;
-    padding: 0;
-    text-align: left
+header button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+.gif-container:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 footer {
     text-align: right;
     margin-top: 20px;
     font-size: 0.9rem;
     color: lightgray;
+}
+.gif-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.gif-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.gif-container img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
 }
 #footer-icon {
     width: 30px;
